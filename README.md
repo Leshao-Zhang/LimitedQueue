@@ -2,7 +2,7 @@
 Generic LimitedQueue for Java, iteratable
 
 Usage:
-
+'
    LimitedQueue&lt;T&gt; limitedQueue = new LimitedQueue&lt;T&gt;(size);
 
    limitedQueue.add(T);//add new item;
@@ -12,7 +12,7 @@ Usage:
    for(T t:limitedQueue){
      //iterate the queue;
    }
-
+'
   
   Take String array as example:
   
