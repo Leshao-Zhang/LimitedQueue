@@ -3,7 +3,7 @@ Generic LimitedQueue for Java, iteratable
 
 Usage:
 ~~~~
-   LimitedQueue&lt;T&gt; limitedQueue = new LimitedQueue&lt;T&gt;(size);
+   LimitedQueue<T> limitedQueue = new LimitedQueue<T>(size);
 
    limitedQueue.add(T);//add new item;
 
