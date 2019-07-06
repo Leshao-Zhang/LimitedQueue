@@ -3,18 +3,18 @@ Generic LimitedQueue for Java, iteratable
 
 Usage:
 
-LimitedQueue<T> limitedQueue = new LimitedQueue<T>(size);
- 
-limitedQueue.add(T);//add new item;
+   LimitedQueue<T> limitedQueue = new LimitedQueue<T>(size);
 
-limitedQueue.get(i);//get the ith item;
+   limitedQueue.add(T);//add new item;
 
-for(T t:limitedQueue){
-  //iterate the queue;
-}
+   limitedQueue.get(i);//get the ith item;
+
+   for(T t:limitedQueue){
+     //iterate the queue;
+   }
 
   
-  take String array as example:
+  Take String array as example:
   
     LimitedQueue<String[]> limitedQueue = new LimitedQueue<String[]>(10);
   
