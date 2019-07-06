@@ -2,7 +2,17 @@
 Generic LimitedQueue for Java, iteratable
 
 Usage:
+
 LimitedQueue<T> limitedQueue = new LimitedQueue<T>(size);
+ 
+limitedQueue.add(T);//add new item;
+
+limitedQueue.get(i);//get the ith item;
+
+for(T t:limitedQueue){
+  //iterate the queue;
+}
+
   
   take String array as example:
   
