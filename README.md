@@ -1,4 +1,8 @@
 # LimitedQueue
+
+I reinvented the CircularFifoQueue, lmao
+https://commons.apache.org/proper/commons-collections/apidocs/org/apache/commons/collections4/queue/CircularFifoQueue.html
+
 Generic LimitedQueue for Java, iteratable
 
 Usage:
